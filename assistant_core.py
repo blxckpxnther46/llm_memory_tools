@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 from tools import TOOLS
 
-CHAT_MODEL = "gemini-2.5-flash"
+CHAT_MODEL = "gemini-3.5-flash-lite"
 MAX_HISTORY = 10  # number of past messages retained in conversational memory
 MAX_STEPS = 4  # max tool-calling loop steps per question
 
